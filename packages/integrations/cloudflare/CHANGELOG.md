@@ -1,5 +1,15 @@
 # @astrojs/cloudflare
 
+## 14.0.0-alpha.1
+
+### Patch Changes
+
+- [#16671](https://github.com/withastro/astro/pull/16671) [`fd926fd`](https://github.com/withastro/astro/commit/fd926fdafd4a5e94dd156105dacb214741f4b7ac) Thanks [@alexanderniebuhr](https://github.com/alexanderniebuhr)! - Removes deprecations warnings added in Astro v6 for Cloudflare specific Astro.locals properties.
+
+- Updated dependencies [[`10229f7`](https://github.com/withastro/astro/commit/10229f73dbf0f19b9936e9a23f0abc774a4c579e)]:
+  - astro@7.0.0-alpha.2
+  - @astrojs/underscore-redirects@1.0.3
+
 ## 14.0.0-alpha.0
 
 ### Major Changes
