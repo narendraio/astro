@@ -1,5 +1,17 @@
 # astro
 
+## 6.4.3
+
+### Patch Changes
+
+- [#16900](https://github.com/withastro/astro/pull/16900) [`17a0fbd`](https://github.com/withastro/astro/commit/17a0fbd34d11db765e79caf269bfd5f43ef51da8) Thanks [@ocavue](https://github.com/ocavue)! - Bumps `devalue` dependency to v5.8.1
+
+- [#16899](https://github.com/withastro/astro/pull/16899) [`239c469`](https://github.com/withastro/astro/commit/239c469cd2cd66d147a302a2ca14e07a0891f9b8) Thanks [@matthewp](https://github.com/matthewp)! - Fixes a false "does not call the middleware() handler" warning when using `astro()` in a custom `src/app.ts` and the first request is a redirect route.
+
+- [#16887](https://github.com/withastro/astro/pull/16887) [`493acdb`](https://github.com/withastro/astro/commit/493acdb4abc56534e9efa68af16e3ef273d7d88b) Thanks [@astrobot-houston](https://github.com/astrobot-houston)! - Fixes `redirectToDefaultLocale` not working after the Advanced Routing refactoring.
+
+- [#16908](https://github.com/withastro/astro/pull/16908) [`ef53ab9`](https://github.com/withastro/astro/commit/ef53ab91e8362b50bb1a3ab73d9350b93ea41de4) Thanks [@florian-lefebvre](https://github.com/florian-lefebvre)! - Improves optimized fallbacks generation when using the Fonts API by using better metrics for bold variants
+
 ## 6.4.2
 
 ### Patch Changes
